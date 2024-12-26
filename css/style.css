@@ -93,8 +93,11 @@ h3 {
   font-style: normal;
   font-size: 20px;
 }
-.first_list li {
-  list-style: none;
+.first_list {
+  display: block;
+}
+.first_list div {
+  display: inline-block;
 }
 h2 {
   font-family: "Roboto", serif;
@@ -104,14 +107,14 @@ h2 {
   font-size: 36px;
   text-align: center;
 }
-.our_team li {
-  list-style: none;
+.our_team div {
+  display: inline-block;
 }
 .our_team {
   background-color: #f4f4fd;
 }
-.portfolio li {
-  list-style: none;
+.portfolio div {
+  display: inline-block;
 }
 .portfolio {
   background-color: #f4f4fd;
