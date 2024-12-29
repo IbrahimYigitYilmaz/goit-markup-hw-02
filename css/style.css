@@ -17,7 +17,7 @@ p {
 .logo {
   text-decoration: none;
   color: #4d5ae5;
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
   font-weight: 700;
   font-style: normal;
