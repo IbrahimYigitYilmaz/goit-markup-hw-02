@@ -17,7 +17,7 @@ p {
 .logo {
   text-decoration: none;
   color: #4d5ae5;
-  font-family: "Raleway", serif;
+  font-family: "Raleway";
   font-optical-sizing: auto;
   font-weight: 700;
   font-style: normal;
@@ -132,4 +132,7 @@ h2 {
 }
 .footer p {
   color: #f4f4fd;
+}
+.studio_end {
+  color: #2e2f42
 }
