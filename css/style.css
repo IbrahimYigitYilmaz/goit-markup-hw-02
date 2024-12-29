@@ -51,10 +51,10 @@ span {
 address {
   font-style: normal;
 }
-.adress li {
+.address li {
   list-style: none;
 }
-.adress a{
+.address_item{
   font-family: "Roboto", serif;
   font-weight: 400;
   font-style: normal;
@@ -64,8 +64,11 @@ address {
   line-height: 24px;
   letter-spacing: 2%;
 }
-.adress a:hover {
-  color: #4d5ae5;
+.address_item:hover {
+  color: #404bbf;
+}
+.address_item:focus {
+  color: #404bbf;
 }
 .button_box {
   background-color: #2e2f42;
