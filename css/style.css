@@ -23,11 +23,11 @@ p {
   font-style: normal;
   font-size: 18px;
   line-height: 1.17;
-  letter-spacing: 0.03;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 span {
-  color: black;
+  color: #2e2f42;
 }
 .menu_1 li {
   list-style: none;
@@ -44,6 +44,9 @@ span {
 }
 .menu_1 a:hover {
   color: #4d5ae5;
+}
+address {
+  font-style: normal;
 }
 .adress li {
   list-style: none;
@@ -72,13 +75,12 @@ h1 {
   font-size: 56px;
   font-weight: bold;
   text-align: center;
-  line-height: 60px;
-  letter-spacing: 2%;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
 }
 .button {
   background-color: #4d5ae5;
   color: white;
-  transform: translate(375%);
   text-align: center;
   cursor: pointer;
   border-radius: 4%;
