@@ -1,7 +1,7 @@
 body {
   background-color: white;
-  color: #2e2f42;
-  font-family: "Roboto", serif;
+  color: #434455;
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-style: normal;
 }
@@ -102,12 +102,6 @@ h3 {
   font-style: normal;
   font-size: 20px;
 }
-.first_list {
-  display: block;
-}
-.first_list div {
-  display: inline-block;
-}
 h2 {
   font-family: "Roboto", serif;
   font-weight: 700;
@@ -116,14 +110,8 @@ h2 {
   font-size: 36px;
   text-align: center;
 }
-.our_team div {
-  display: inline-block;
-}
 .our_team {
   background-color: #f4f4fd;
-}
-.portfolio div {
-  display: inline-block;
 }
 .portfolio {
   background-color: #f4f4fd;
