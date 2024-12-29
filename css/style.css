@@ -79,6 +79,7 @@ h1 {
   letter-spacing: 0.02em;
 }
 .button {
+  font-family:"Roboto", sans-serif;
   background-color: #4d5ae5;
   color: white;
   text-align: center;
@@ -88,10 +89,10 @@ h1 {
   line-height: 1.5;
   letter-spacing: 0.04em;
 }
-.button :hover {
+.button:hover {
   background-color: #404BBF
 }
-.button :focus {
+.button:focus {
   background-color: #404BBF
 }
 h3 {
