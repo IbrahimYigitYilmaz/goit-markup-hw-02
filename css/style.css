@@ -62,7 +62,7 @@ address {
   color: #434455;
   text-decoration: none;
   line-height: 24px;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
 }
 .address_item:hover {
   color: #404bbf;
@@ -100,12 +100,23 @@ h1 {
 .button:focus {
   background-color: #404BBF
 }
-h3 {
+.features {
   color: #2e2f42;
   font-family: "Roboto", serif;
   font-weight: 500;
   font-style: normal;
   font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+.features_text {
+  color: #434455;
+  font-family: "Roboto", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 h2 {
   font-family: "Roboto", serif;
