@@ -22,8 +22,9 @@ p {
   font-weight: 700;
   font-style: normal;
   font-size: 18px;
-  line-height: 21px;
-  letter-spacing: 3%;
+  line-height: 1.17;
+  letter-spacing: 0.03;
+  text-transform: uppercase;
 }
 span {
   color: black;
@@ -47,7 +48,7 @@ span {
 .adress li {
   list-style: none;
 }
-.adress a {
+.adress a{
   font-family: "Roboto", serif;
   font-weight: 400;
   font-style: normal;
