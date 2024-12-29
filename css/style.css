@@ -12,7 +12,7 @@ p {
   font-style: normal;
   font-size: 16px;
   line-height: 24px;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
 }
 .logo {
   text-decoration: none;
@@ -32,7 +32,7 @@ span {
 .menu_1 li {
   list-style: none;
 }
-.menu_1 a {
+.list_1 {
   text-decoration: none;
   font-family: "Roboto", serif;
   font-weight: 500;
@@ -40,7 +40,7 @@ span {
   font-size: 16px;
   color: #2e2f42;
   line-height: 24px;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
 }
 .menu_1 a:hover {
   color: #4d5ae5;
@@ -84,6 +84,15 @@ h1 {
   text-align: center;
   cursor: pointer;
   border-radius: 4%;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}
+.button :hover {
+  background-color: #404BBF
+}
+.button :focus {
+  background-color: #404BBF
 }
 h3 {
   color: #2e2f42;
